@@ -1,0 +1,133 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(224, 238, 254);
+    
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: fit-content;
+    margin: auto;
+    box-shadow: 0 0 1rem rgb(81, 81, 81);
+    border-radius: 10px;
+}
+
+section img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+figcaption {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fa-circle {
+    font-size: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+summary h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+summary h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    font-weight: 100;
+    font-size: 18px;
+}
+
+summary h2, span, .phone {
+    color: rgb(91, 94, 97);
+}
+
+.rooms {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.rooms i {
+    margin-right: 10px;
+    font-size: 22px;
+    color: rgb(83, 95, 103);
+}
+
+summary {
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+footer {
+    background-color: rgb(242, 246, 251);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    height: 110px;
+}
+
+footer h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    color:rgb(107, 125, 141);
+}
+
+footer img {
+    margin-left: 20px;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+p {
+    display: inline-block;
+}
+
+.phone {
+    width: 100%;
+    margin-left: 85px;
+    position: relative;
+    bottom: 60px;
+}
+
+.name {
+    font-size: 20px;
+    position: relative; 
+    bottom: 30px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block; 
+}
+
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-regular.fa-heart {
+    font-size: 30px;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.fa-regular.fa-heart:hover {
+    transform: scale(1.1); 
+}
